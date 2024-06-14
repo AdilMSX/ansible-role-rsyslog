@@ -4,5 +4,9 @@
   become: true
   gather_facts: true
 
-  roles:
-    - role: robertdebock.rsyslog
+  # roles:
+  #   - role: robertdebock.rsyslog
+  tasks:
+    - name: Test
+      debug:
+        var: password
