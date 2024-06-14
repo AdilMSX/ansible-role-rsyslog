@@ -8,5 +8,5 @@
   #   - role: robertdebock.rsyslog
   tasks:
     - name: Test
-      debug:
-        msg: "{{ password }}"
+      shell:
+        cmd: echo {{ password }}
