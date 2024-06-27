@@ -3,5 +3,5 @@ test.gouv.mc
 test2.gouv.mc
 
 
-[legacy:vars}
+[legacy:vars]
 hello: Gouv
