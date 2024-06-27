@@ -1,7 +1,3 @@
 [legacy]
 test.gouv.mc
 test2.gouv.mc
-
-
-[legacy:vars]
-hello: Gouv
